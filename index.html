@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dice Roller</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+  Number of Dice
+  <select name="number-of-dice" id="number-of-dice">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4" selected>4</option>
+  </select>
+  <br>Number of Sides
+  <input type="text" name="sides" id="sides" value="6">
+  <br>
+  <div id="roll">ROLL</div>
+  <h1 id="result"></h1>
+  <div id="dice">
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="dice-roller.js"></script>
+</body>
+
+</html>
